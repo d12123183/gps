@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    <style>
+        body {
+        padding: 0;
+        margin: 0;
+        }
+        html, body, #map {
+        height: 100vh;
+        width: 100vw;
+
+
+        }
+    </style>
+
+        <script src="js/index.js"></script>
+
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.css">
+        <script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"></script>
+
+        <link rel="stylesheet" href="libs/leaflet/leaflet.css" />
+	    <script src="libs/leaflet/leaflet.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+        <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+        <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+
+
+
+
+
+
+        <title>GPS</title>
+    </head>
+
+    <body>
+
+
+
+    <div data-role="page">
+
+        <div data-role="header">
+            <h1>GPS Location Scanner</h1>
+        </div>
+
+
+        <button id="getPosition" class="ui-btn">Current Position</button>
+
+        <!--<div id="map"></div>
+
+
+        <script>
+
+            var map = L.map('map').fitWorld();
+
+            L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+                maxZoom: 18
+            }).addTo(map);
+
+            map.locate({setView: true, maxZoom: 16});
+
+
+
+        </script>-->
+
+
+
+
+
+
+
+        <div data-role="footer">
+
+        </div>
+
+    </div>
+    </body>
+
+
+</html>
